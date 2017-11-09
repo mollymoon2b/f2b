@@ -1,0 +1,15 @@
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu__link {
+    text-align: center;
+    text-decoration: none;
+    width: 20%;
+}
+
+.menu__link-image {
+    padding: 10px 0;
+    width: 90%;
+}

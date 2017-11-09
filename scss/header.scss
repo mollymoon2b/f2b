@@ -1,0 +1,20 @@
+.header-title {
+    color: black;
+    font-size: 101px;
+    font-weight: 700;
+    margin-left: 16px;
+}
+
+.white {
+    color: white;
+}
+
+.header-bar {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-bar__iamge {
+    display: block;
+    margin: 0 5px;
+}

@@ -1,0 +1,31 @@
+@import 'reset';
+@import 'header';
+@import 'menu';
+
+$pink: #E85294;
+
+html {
+    height: 100%;
+}
+
+body {
+    align-items: center;
+    background-color: $pink;
+    display: flex;
+    font-family: 'Anton', sans-serif;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+}
+
+footer {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
